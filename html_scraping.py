@@ -35,5 +35,5 @@ raw_html = simple_get('http://shakespeare.mit.edu/lll/full.html')
 
 html = BeautifulSoup(raw_html, 'html.parser')
 for body in html.select('body'):
-  word_list = body.text
-  word_list = word_list.replace(';',' ').replace(',',' ').replace(']',' ').replace(':',' ').replace('.',' ').replace('!',' ').replace('?',' ').replace('[',' ').split()
+    word_list = body.text.strip()
+    word_list = word_list.replace(';',' ').replace(',',' ').replace(']',' ').replace(':',' ').replace('.',' ').replace('!',' ').replace('?',' ').replace('[',' ').split()

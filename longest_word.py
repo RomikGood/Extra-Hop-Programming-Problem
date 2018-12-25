@@ -1,4 +1,4 @@
-import scraping
+import html_scraping
 
 def find_longest_word(grid, words):
 
@@ -36,11 +36,11 @@ def find_longest_word(grid, words):
                             longest_word = word
         return longest_word
     except:
-        return 'No words in Grid'
+        return 'No words could be produced by this Grid'
 
 # words = ['forthhh', 'fortranhh', 'fortranhhh']
 # words = []
-# words = scraping.word_list
+# words = Html_scraping.word_list
 
 # grid3 = []
 
