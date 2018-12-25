@@ -40,30 +40,30 @@ def find_longest_word(grid, words):
 
 # words = ['forthhh', 'fortranhh', 'fortranhhh']
 # words = []
-words = scraping.word_list
+# words = scraping.word_list
 
-grid3 = []
+# grid3 = []
 
-grid = [['Q', 'W', 'E', 'R', 'T', 'N', 'U', 'I'],
-        ['O', 'P', 'A', 'A', 'D', 'F', 'G', 'H'],
-        ['T', 'K', 'L', 'Z', 'X', 'C', 'V', 'B'],
-        ['N', 'M', 'R', 'W', 'F', 'R', 'T', 'Y'],
-        ['U', 'I', 'O', 'P', 'A', 'S', 'D', 'F'],
-        ['G', 'H', 'J', 'O', 'L', 'Z', 'X', 'C'],
-        ['V', 'B', 'N', 'M', 'Q', 'W', 'E', 'R'],
-        ['T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S']]
-
-
-
-grid2 = [['E', 'X', 'T', 'R', 'A', 'H', 'O', 'P'],
-        ['N', 'E', 'T', 'W', 'O', 'R', 'K', 'S'],
-        ['Q', 'I', 'H', 'A', 'C', 'I', 'Q', 'T'],
-        ['L', 'F', 'U', 'N', 'U', 'R', 'X', 'B'],
-        ['B', 'W', 'D', 'I', 'L', 'A', 'T', 'V'],
-        ['O', 'S', 'S', 'Y', 'N', 'A', 'C', 'K'],
-        ['Q', 'W', 'O', 'P', 'M', 'T', 'C', 'P'],
-        ['K', 'I', 'P', 'A', 'C', 'K', 'E', 'T']]
+# grid = [['Q', 'W', 'E', 'R', 'T', 'N', 'U', 'I'],
+#         ['O', 'P', 'A', 'A', 'D', 'F', 'G', 'H'],
+#         ['T', 'K', 'L', 'Z', 'X', 'C', 'V', 'B'],
+#         ['N', 'M', 'R', 'W', 'F', 'R', 'T', 'Y'],
+#         ['U', 'I', 'O', 'P', 'A', 'S', 'D', 'F'],
+#         ['G', 'H', 'J', 'O', 'L', 'Z', 'X', 'C'],
+#         ['V', 'B', 'N', 'M', 'Q', 'W', 'E', 'R'],
+#         ['T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S']]
 
 
-print(find_longest_word(grid2, words))
+
+# grid2 = [['E', 'X', 'T', 'R', 'A', 'H', 'O', 'P'],
+#         ['N', 'E', 'T', 'W', 'O', 'R', 'K', 'S'],
+#         ['Q', 'I', 'H', 'A', 'C', 'I', 'Q', 'T'],
+#         ['L', 'F', 'U', 'N', 'U', 'R', 'X', 'B'],
+#         ['B', 'W', 'D', 'I', 'L', 'A', 'T', 'V'],
+#         ['O', 'S', 'S', 'Y', 'N', 'A', 'C', 'K'],
+#         ['Q', 'W', 'O', 'P', 'M', 'T', 'C', 'P'],
+#         ['K', 'I', 'P', 'A', 'C', 'K', 'E', 'T']]
+
+
+# print(find_longest_word(grid2, words))
 
