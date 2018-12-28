@@ -7,7 +7,8 @@
   12/27/2018
 
 ## Solution to the problem
-  honorificabilitudinitatibus
+    
+    honorificabilitudinitatibus
 
 ## Problem: 
 
@@ -46,7 +47,6 @@ Create a list of words found in Shakespeare’s early comedy, Love’s Labour’
 - pytest
 - beautifulsoup4
 - requests
-- bs4
 - contextlib
 
 ## How to run the tests

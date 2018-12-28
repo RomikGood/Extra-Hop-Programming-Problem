@@ -8,7 +8,8 @@ def find_longest_word(grid, words):
 
     def if_word_exists(grid, word, row, col, index):
         """
-        Recursive function to verify that the candidate word can be produced from the grid
+        Helper recursive function that take a word and verifies 
+        that this candidate word could be produced from the grid
         """
         word = word.upper()        
         # Valid chess knight moves 

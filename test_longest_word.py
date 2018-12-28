@@ -12,12 +12,12 @@ def test_find_longest_word_exists():
 
 def test_if_no_grid_or_no_words_provided():
 	"""
-	test returns if no grid or no word list is provided
+	test correct return if no grid or no word list is provided
 	"""
 	assert find_longest_word([], []) == 'Please provide valid grid and/or list of words'
 	assert find_longest_word(['A', 'B', 'C'], []) == 'Please provide valid grid and/or list of words'
 	assert find_longest_word([], ['extrahop', 'TCP']) == 'Please provide valid grid and/or list of words'
-
+	
 
 def test_with_8by8_grid_and_word_list():
 	"""
