@@ -1,5 +1,5 @@
 import pytest
-from longest_word import find_longest_word
+from longest_word_solution import find_longest_word
 import html_scraping
 
 
@@ -50,7 +50,7 @@ def test_with_no_words_found_in_grid():
         ['V', 'B', 'N', 'M', 'Q', 'W', 'E', 'R'],
         ['T', 'Y', 'U', 'I', 'O', 'P', 'A', 'S']]
 	
-	words = ['algols', 'fortranss', 'simulass']
+	words = ['algols', 'fortransshh', 'simulass']
 	assert find_longest_word(grid, words) == 'No words could be produced by this Grid'
 
 
