@@ -56,6 +56,9 @@ def test_with_no_words_found_in_grid():
 
 def test_if_function_return_correct_longest_word_from_Shakespeare_play():
 	"""
+	Test that the funtion takes 8 by 8 grid and a list of words made by scraping website
+	with Shakespeare’s early comedy, Love’s Labour’s Lost
+
 	"""
 	grid = [['E', 'X', 'T', 'R', 'A', 'H', 'O', 'P'],
         ['N', 'E', 'T', 'W', 'O', 'R', 'K', 'S'],

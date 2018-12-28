@@ -1,10 +1,14 @@
 import html_scraping
 
 def find_longest_word(grid, words):
+    """
+    This main function takes a grid of letters and a list of words and 
+    returns the longest word from the list that can be produced from the grid
+    """
 
     def if_word_exists(grid, word, row, col, index):
         """
-        Recursive function to verify that the candidate word exists in the grid
+        Recursive function to verify that the candidate word can be produced from the grid
         """
         word = word.upper()        
         # Valid chess knight moves 
