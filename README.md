@@ -1,6 +1,6 @@
 # ExtraHop Programming Problem
 
-# Author 
+## Author 
   Roman Kireev
 
 ## Date
@@ -43,13 +43,13 @@ Create a list of words found in Shakespeare’s early comedy, Love’s Labour’
         K I P A C K E T
 
 ## Installed packages 
-pytest
-beautifulsoup4
-requests
-bs4
-contextlib
+- pytest
+- beautifulsoup4
+- requests
+- bs4
+- contextlib
 
-## How to run the test
-  Run pytest in vertual enviroment to verify the correct solution and edge cases
+## How to run the tests
+  Run pytest -v in vertual enviroment to verify the correct solution and the edge cases
 
 
