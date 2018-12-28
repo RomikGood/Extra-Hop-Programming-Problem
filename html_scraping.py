@@ -29,9 +29,7 @@ def is_good_response(resp):
             and content_type is not None 
             and content_type.find('html') > -1)
 
-
 raw_html = simple_get('http://shakespeare.mit.edu/lll/full.html')
-# raw_html = open('play.html').read()
 
 html = BeautifulSoup(raw_html, 'html.parser')
 for body in html.select('body'):
