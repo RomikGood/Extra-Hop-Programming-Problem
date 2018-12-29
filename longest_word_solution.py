@@ -9,7 +9,7 @@ def find_longest_word(grid, words):
     if not grid or not words:
         return 'Please provide valid grid and/or list of words'
 
-    def if_word_exists(word, row, col, index):
+    def if_word_found(word, row, col, index):
         """
         Helper recursive function that take a word and verifies 
         that this candidate word could be produced from the grid
@@ -26,7 +26,7 @@ def find_longest_word(grid, words):
             letter = grid[row][col]
             if letter != word[index]:
                 return False
-            if letter == word[index] and if_word_exists(word, row + x, col + y, index + 1):
+            if letter == word[index] and if_word_found(word, row + x, col + y, index + 1):
                 return True
   
     
@@ -35,7 +35,7 @@ def find_longest_word(grid, words):
         for word in words:
             for row in range(len(grid)):
                 for col in range(len(grid[0])):
-                    if if_word_exists(word, row, col, 0):
+                    if if_word_found(word, row, col, 0):
                         if len(word) > max_length:
                             max_length = len(word)
                             longest_word = word

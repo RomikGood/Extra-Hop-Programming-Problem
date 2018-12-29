@@ -3,7 +3,7 @@ from longest_word_solution import find_longest_word
 import html_scraping
 
 
-def test_find_longest_word_exists():
+def test_function_find_longest_word_exists():
 	"""
 	Test verifies that find longest word fanction exsits
 	"""
