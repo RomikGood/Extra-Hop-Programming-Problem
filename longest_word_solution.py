@@ -42,3 +42,15 @@ def find_longest_word(grid, words):
         return longest_word
     except:
         return 'No words could be produced by this Grid'
+
+words = html_scraping.word_list
+grid = [['E', 'X', 'T', 'R', 'A', 'H', 'O', 'P'],
+    ['N', 'E', 'T', 'W', 'O', 'R', 'K', 'S'],
+    ['Q', 'I', 'H', 'A', 'C', 'I', 'Q', 'T'],
+    ['L', 'F', 'U', 'N', 'U', 'R', 'X', 'B'],
+    ['B', 'W', 'D', 'I', 'L', 'A', 'T', 'V'],
+    ['O', 'S', 'S', 'Y', 'N', 'A', 'C', 'K'],
+    ['Q', 'W', 'O', 'P', 'M', 'T', 'C', 'P'],
+    ['K', 'I', 'P', 'A', 'C', 'K', 'E', 'T']]
+
+print(find_longest_word(grid, words))
